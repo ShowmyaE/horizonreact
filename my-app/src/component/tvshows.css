@@ -1,0 +1,42 @@
+.tv-shows {
+    padding: 20px;
+    background-color: #f4f4f4;
+  }
+  
+  .tv-shows-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .tv-show-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    width: 200px;
+  }
+  
+  .tv-show-poster {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  .tv-show-info {
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .tv-show-title {
+    font-size: 1.2rem;
+    margin: 10px 0;
+  }
+  
+  .tv-show-description {
+    font-size: 0.9rem;
+    color: #555;
+  }

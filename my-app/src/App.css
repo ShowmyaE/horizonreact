@@ -1,0 +1,15 @@
+.menu {
+  display: flex;
+  flex-direction: column;
+}
+
+.menu-item {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.menu-image {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
