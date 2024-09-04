@@ -11,7 +11,7 @@ function TVShows() {
     },[]);
 
     async function gettvshows() {
-        const url = 'http://localhost:5000/tvshows'
+        const url = 'https://horizonbackend-zd8q.onrender.com/tvshows'
         const options = {
             method: 'GET'
         }

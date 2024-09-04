@@ -11,7 +11,7 @@ const [movies, setmovies] = useState([]);
     },[]);
 
     async function getmovies() {
-        const url = 'http://localhost:5000/movies'
+        const url = 'https://horizonbackend-zd8q.onrender.com/movies'
         const options = {
             method: 'GET'
         }

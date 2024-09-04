@@ -1,13 +1,6 @@
 import React from 'react';
 import './live.css';
 import { useState ,useEffect} from 'react';
-// Sample live event data
-// const liveEvents = [
-//   { title: 'Live Soccer Match', image: 'soccer_match.jpg', description: 'Watch the live broadcast of an exciting soccer match between top teams.' },
-//   { title: 'Music Concert', image: 'music_concert.jpg', description: 'Enjoy a live concert performance from your favorite band.' },
-//   { title: 'News Broadcast', image: 'news_broadcast.jpg', description: 'Stay updated with the latest news happening around the world.' },
-//   { title: 'E-Sports Tournament', image: 'esports_tournament.jpg', description: 'Tune in to watch the thrilling e-sports tournament live.' },
-// ];
 
 function Live() {
     const [live, setlive] = useState([]);
@@ -17,7 +10,7 @@ function Live() {
     },[]);
 
     async function getlive() {
-        const url = 'http://localhost:5000/live'
+        const url = 'https://horizonbackend-zd8q.onrender.com/live'
         const options = {
             method: 'GET'
         }
